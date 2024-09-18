@@ -6,7 +6,7 @@ subtitle: <a href='https://www.microsoft.com/en-us/research/'>Microsoft Research
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
 
 news: false # includes a list of news items
