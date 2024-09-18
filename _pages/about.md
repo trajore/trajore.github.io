@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.microsoft.com/en-us/research/'>Microsoft Research</a>. Banglore,Karnataka.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+I am a Research Fellow in the [EzPC](https://www.microsoft.com/en-us/research/project/ezpc-easy-secure-multi-party-computation/) team at Microsoft Research, and work with [Dr.Rahul Sharma](https://www.microsoft.com/en-us/research/people/rahsha/), [Dr. Divya Gupta](https://www.microsoft.com/en-us/research/people/digup/) and [Dr.Nishanth Chandran](https://www.microsoft.com/en-us/research/people/nichandr/) on Secure Multi-party Computation. My interests broadly include Systems, Security, Networks and Computer Architecture.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Previously I completed my Bachelors (B.Tech) in Computer Science from IIIT Delhi in 2023 where I worked under [Dr.Mukulika Maity](https://iiitd.ac.in/mukulika) and [Dr.Arani Bhattacharya](https://iiitd.ac.in/arani) in the Network Research Lab on my thesis project titled NATIVE: Network Aggregation based Tiled Live Video Streaming. Further I have also extensively worked with [Dr.Sambuddho Chakravarty](https://iiitd.ac.in/sambuddho) on VPNs (Virtual Private Network) fingerprintability and security in the Cryptography & Network Security Lab. In addition, in the Computer Architecture domain, I have worked on projects for Designing a Network on chip (NOC) simulator and FPGA based 100 Gigabits/sec Network cards.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+# Publications
+<div class="publications">
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+{% bibliography %}
+
+</div>
