@@ -1,7 +1,11 @@
 ---
 ---
 <div class="row">
-  {% if site.enable_publication_thumbnails %}
+  {%- assign has_thumb = false -%}
+  {%- if entry.abbr or entry.preview -%}
+    {%- assign has_thumb = true -%}
+  {%- endif -%}
+  {% if site.enable_publication_thumbnails and has_thumb %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
@@ -45,7 +49,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails and has_thumb %}col-sm-8{% else %}col-sm-12{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
