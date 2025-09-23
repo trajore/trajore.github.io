@@ -1,3 +1,73 @@
-This file intentionally duplicates the Keybase proof served at /.well-known/keybase.txt for compatibility.
+==================================================================
+https://keybase.io/tanmayrajore
+--------------------------------------------------------------------
 
-See: /.well-known/keybase.txt
+I hereby claim:
+
+  * I am an admin of https://trajore.github.io
+  * I am tanmayrajore (https://keybase.io/tanmayrajore) on keybase.
+  * I have a public key with fingerprint FA1D 73F7 FF19 68B0 156F  492B FE59 FAD0 D3CF CD9B
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209a4f2171e8317c6af4c57018df1a5ba1438acdf9377152576642909f740f56a40a",
+      "fingerprint": "fa1d73f7ff1968b0156f492bfe59fad0d3cfcd9b",
+      "host": "keybase.io",
+      "key_id": "fe59fad0d3cfcd9b",
+      "kid": "010132c3803db84d85dddd2c9a0ed1aa7732a3721aa2d1e8ec240643dc84d87114280a",
+      "uid": "967f318cb0f01cd33419ce9cae1db319",
+      "username": "tanmayrajore"
+    },
+    "service": {
+      "hostname": "trajore.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1758621782,
+  "expire_in": 157680000,
+  "prev": "22e437e0502816e4fa78293c8cf9d77684505b8b8b64e13dd2550be413b2ad83",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtkn1QFGUcxw8Dm7tADYaCAo3VFA+G2Weffb1BKSdsyMapBicThuvZ3Wfvlpe7
+426Pl0GlxgIcwEFBeiEqixmQsBqSKMM3DIcBQUBBBlMmI4MoRsrRAVPaxfivZ//Y
+Z5/n8/3u9/d7nqqQR0yWgAdvzA9cuthXF9A7JZqcQx65iBDdciFhKyKy8OILZ8vY
+p9mzVJmwESSgSAHRCgU4gHkIOIlFCi0xHAl4WQGIERGgIY8kWREgxwGGYjiWpSmB
+FBSOJhWGRTSJiHhCUV0O7PV4VZem2yoIyBxUOEUBAsuLJGBYhRYoUcGMoCCZlKGk
+SLIg6kKn22co9HAi8uEE1a2v6R/2xXj/wy/lJgGkJMiTUBZ5WuYZWR+UJCASywAh
+joMUghylTylZrwxLFE2yNJQlA+YAoCl+Mbd/0U5gOQUCXhJJhQSSDCENBAkLEsJA
+FiEQDNCHvS6Ug3VaQ64cVOhFmW4vJvbEE/pOnipho7lGNUvUQyDBoWpOv/iwMI/X
+rbkld7a+7dQ0j89myLVCj8HnY9H+n5NdVF2y3lBdkYe9PtXtImxAJyVNNawBx/Cs
+fmI8FU/gAo/qxXbVIPSj4Ul9GP/BeYRoIygK05DDJENSPGAxrSBdJECJlxRB5nSc
+ZkhG5PWHpTGAegcZhhQxDaBIIZmHhFFcrstN2CjdVUMOPadPdbiQ5jdKt+xfBgNN
+ARZT9BMxgfPRvrsLkc6vw90pcUu3MGiZcQVNFvOqpZU9hSsX8L0KNbeh+u3Sc8du
+Ts4PhfE3klMPJNVt979w2IH3NgfBZNfY7s/OdMf5x+4Nbu/PCKnqSutw5U17VqjR
+HZuvn4toqBl2tPyZ/mvzKSpofX1MnrLmqVujRyflgOMRv5z4LWrCar6ddnbjmcsb
+TqtETvLO86nxLj//oOOn0MqBCxubX5ydrDaJsTcLYPjxvFYUOXO74aPzK7pi9wa/
+BQfLa4YSPqxJqzuq+SoOP/bjvn0Wz+jzRxxRq0dbydbGkfhjLxf3J1UqgwVR7U3T
+nRWhLyW8MrHcVvI4a67PYTsufsDWhsRmq+UpiVNFvTt/vlOVYV6d2tRiHivd/No6
+bUtoo1V9fytZsoOeGB8Xgw+eHLifXvJ0/67IVcp7vuB/IrZOHCydr0mPs3acXevs
+3xb5eX5r5+Xvt3k95g1h81UTf0RW/84nFltrzOW1KWWZ40S+/YS3PyuoMbO+bSTz
+2ysHdufeXdd/h622djcdEqKT0squhMSGl6FH9wd4LK+2yZt+MF34a6ELvRvob7ft
+GA7zzdXX9520umKyr06Mk89twdWf/p3VObS2xGHtmcmsbDmS9eQXlWtK4Se+GyO9
+M++8mXirhfQWv35//aZdbSXjrdNXkybbLLHJp7iy2hLTtZTAS9d7DuWsfJaZ6/k4
+od2de222YParkKm+b55Z3jJ82tmd8V27Mjf8pfIv
+=oNLk
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tanmayrajore
+
+==================================================================
