@@ -35,7 +35,7 @@ Previously I completed my Bachelors (B.Tech) in Computer Science from IIIT Delhi
 [ASCII‑armored key](/assets/keys/tanmay.asc)
 
 **Keybase Proof**  
-<a href="{{ '/.well-known/keybase.txt' | relative_url }}" class="gpg-proof-link" rel="noopener" title="View Keybase site ownership proof">keybase.txt</a>
+<a href="/.well-known/keybase.txt" class="gpg-proof-link" rel="noopener" title="View Keybase site ownership proof">keybase.txt</a>
 
 **Import & Verify**
 
