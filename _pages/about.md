@@ -13,6 +13,7 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
 I am a Research Fellow in the [EzPC](https://www.microsoft.com/en-us/research/project/ezpc-easy-secure-multi-party-computation/) team at Microsoft Research, and work with [Dr.Rahul Sharma](https://www.microsoft.com/en-us/research/people/rahsha/), [Dr. Divya Gupta](https://www.microsoft.com/en-us/research/people/digup/) and [Dr.Nishanth Chandran](https://www.microsoft.com/en-us/research/people/nichandr/) on Secure Multi-party Computation. My interests broadly include Systems, Security, Networks and Computer Architecture.
 
 Previously I completed my Bachelors (B.Tech) in Computer Science from IIIT Delhi in 2023 where I worked under [Dr.Mukulika Maity](https://iiitd.ac.in/mukulika) and [Dr.Arani Bhattacharya](https://iiitd.ac.in/arani) in the Network Research Lab on my thesis project titled NATIVE: Network Aggregation based Tiled Live Video Streaming. Further I have also extensively worked with [Dr.Sambuddho Chakravarty](https://iiitd.ac.in/sambuddho) on VPNs (Virtual Private Network) fingerprintability and security in the Cryptography & Network Security Lab. In addition, in the Computer Architecture domain, I have worked on projects for Designing a Network on chip (NOC) simulator and FPGA based 100 Gigabits/sec Network cards.
@@ -37,28 +38,37 @@ Previously I completed my Bachelors (B.Tech) in Computer Science from IIIT Delhi
 <a href="{{ '/.well-known/keybase.txt' | relative_url }}" class="gpg-proof-link" rel="noopener" title="View Keybase site ownership proof">keybase.txt</a>
 
 **Import & Verify**
+
 ```bash
 curl -s {{ site.url }}/assets/keys/tanmay.asc | gpg --import
 gpg --fingerprint tanmayrajore@gmail.com
 ```
+
 Expected fingerprint:
+
 ```
 FA1D 73F7 FF19 68B0 156F  492B FE59 FAD0 D3CF CD9B
 ```
 
 **Usage Examples**
 Encrypt a file for me:
+
 ```bash
 gpg --encrypt --recipient tanmayrajore@gmail.com secret.pdf
 ```
+
 Sign a message (you to me):
+
 ```bash
 gpg --clear-sign message.txt
 ```
+
 Verify a signature I made:
+
 ```bash
 gpg --verify signed.txt
 ```
+
 </details>
 
 <style>
@@ -110,6 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 # Publications
+
 <div class="publications">
 
 {% bibliography %}
