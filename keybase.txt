@@ -1,0 +1,3 @@
+This file intentionally duplicates the Keybase proof served at /.well-known/keybase.txt for compatibility.
+
+See: /.well-known/keybase.txt
