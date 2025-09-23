@@ -18,6 +18,8 @@ I am a Research Fellow in the [EzPC](https://www.microsoft.com/en-us/research/pr
 
 Previously I completed my Bachelors (B.Tech) in Computer Science from IIIT Delhi in 2023 where I worked under [Dr.Mukulika Maity](https://iiitd.ac.in/mukulika) and [Dr.Arani Bhattacharya](https://iiitd.ac.in/arani) in the Network Research Lab on my thesis project titled NATIVE: Network Aggregation based Tiled Live Video Streaming. Further I have also extensively worked with [Dr.Sambuddho Chakravarty](https://iiitd.ac.in/sambuddho) on VPNs (Virtual Private Network) fingerprintability and security in the Cryptography & Network Security Lab. In addition, in the Computer Architecture domain, I have worked on projects for Designing a Network on chip (NOC) simulator and FPGA based 100 Gigabits/sec Network cards.
 
+Email ~ tanmayrajore at gmail dot com (tanmayrajore@gmail.com)
+
 ## PGP / GPG Key
 
 <details class="gpg-key" markdown="1">
@@ -35,7 +37,7 @@ Previously I completed my Bachelors (B.Tech) in Computer Science from IIIT Delhi
 [ASCII‑armored key](/assets/keys/tanmay.asc)
 
 **Keybase Proof**  
-<a href="/.well-known/keybase.txt" class="gpg-proof-link" rel="noopener" title="View Keybase site ownership proof">keybase.txt</a>
+<a href="/keybase.txt" class="gpg-proof-link" rel="noopener" title="View Keybase site ownership proof">keybase.txt</a>
 
 **Import & Verify**
 
