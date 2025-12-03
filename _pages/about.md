@@ -18,7 +18,6 @@ I’m a security researcher and Research Engineer in the [EzPC](https://www.micr
 
 Before MSR, I completed my B.Tech in Computer Science at IIIT Delhi, where I built NATIVE, a network-aggregation–based tiled video streaming system under the guidance of [Dr.Mukulika Maity](https://iiitd.ac.in/mukulika) and [Dr.Arani Bhattacharya](https://iiitd.ac.in/arani) in the Network Research Lab, and collaborated with [Dr.Sambuddho Chakravarty](https://iiitd.ac.in/sambuddho) on VPN fingerprintability and protocol security.
 
-
 Email ~ tanmayrajore at gmail dot com (tanmayrajore@gmail.com)
 
 ## PGP / GPG Key
