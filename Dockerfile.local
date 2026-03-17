@@ -1,0 +1,49 @@
+FROM ruby:3.3-slim
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    LANG=en_US.UTF-8 \
+    LANGUAGE=en_US:en \
+    LC_ALL=en_US.UTF-8 \
+    JEKYLL_ENV=development \
+    BUNDLE_PATH=/usr/local/bundle \
+    BUNDLE_APP_CONFIG=/usr/local/bundle/config \
+    BUNDLE_BIN=/usr/local/bundle/bin \
+    GEM_HOME=/usr/local/bundle \
+    VIRTUAL_ENV=/opt/venv \
+    PATH=/opt/venv/bin:/usr/local/bundle/bin:$PATH
+
+RUN apt-get update -y && \
+    apt-get install -y --no-install-recommends \
+        build-essential \
+        zlib1g-dev \
+        libssl-dev \
+        libreadline-dev \
+        libffi-dev \
+        libyaml-dev \
+        pkg-config \
+        python3 \
+        python3-pip \
+        python3-venv \
+        nodejs \
+        npm \
+        imagemagick \
+        inotify-tools \
+        procps \
+        git \
+        locales && \
+    sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && locale-gen && \
+    gem install bundler && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /srv/jekyll
+
+COPY requirements.txt /tmp/requirements.txt
+RUN python3 -m venv "$VIRTUAL_ENV" && \
+    "$VIRTUAL_ENV/bin/pip" install --no-cache-dir -r /tmp/requirements.txt
+
+COPY bin/entry_point_local.sh /usr/local/bin/entry_point_local.sh
+RUN chmod +x /usr/local/bin/entry_point_local.sh
+
+EXPOSE 8080 35729
+
+CMD ["/usr/local/bin/entry_point_local.sh"]
