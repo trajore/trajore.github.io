@@ -59,9 +59,9 @@ pagination:
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% assign has_visible_featured_posts = false %}
 {% for post in featured_posts %}
-  {% unless post.categories contains 'sample-posts' %}
-    {% assign has_visible_featured_posts = true %}
-  {% endunless %}
+{% unless post.categories contains 'sample-posts' %}
+{% assign has_visible_featured_posts = true %}
+{% endunless %}
 {% endfor %}
 {% if has_visible_featured_posts %}
 <br>
@@ -101,11 +101,13 @@ pagination:
             </div>
           </a>
         </div>
+
 {% endunless %}
-      {% endfor %}
-      </div>
-    </div>
-    <hr>
+{% endfor %}
+
+</div>
+</div>
+<hr>
 
 {% endif %}
 
