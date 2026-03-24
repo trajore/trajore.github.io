@@ -513,11 +513,18 @@ footer.sticky-bottom {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
   }
 }
 

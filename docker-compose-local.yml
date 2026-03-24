@@ -1,0 +1,18 @@
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+    ports:
+      - "8080:8080"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll
+      - bundle_cache:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=development
+      - BUNDLE_PATH=/usr/local/bundle
+      - BUNDLE_APP_CONFIG=/usr/local/bundle/config
+
+volumes:
+  bundle_cache:
